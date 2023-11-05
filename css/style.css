@@ -1,0 +1,41 @@
+@import url(reset.css);
+
+@font-face {
+    font-display: swap;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/outfit-v11-latin-300.woff2") format("woff2"),
+        url("../fonts/outfit-v11-latin-300.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/outfit-v11-latin-regular.woff2") format("woff2"),
+        url("../fonts/outfit-v11-latin-regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-display: swap;
+    font-family: "Outfit";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/outfit-v11-latin-600.woff2") format("woff2"),
+        url("../fonts/outfit-v11-latin-600.ttf") format("truetype");
+}
+
+:root {
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    --main-bg: hsl(217, 54%, 11%);
+    --card-bg: hsl(216, 50%, 16%);
+    --line-color: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    --heading-size: 1.2rem;
+    --font-size: 1.125rem;
+}
