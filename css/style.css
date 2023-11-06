@@ -78,9 +78,12 @@ section {
     inset: 0;
     opacity: 0;
     border-radius: .5rem;
+    height: 0%;
 }
 
 .imgContainer:hover .imgOverlay {
+    height: 100%;
+    transition: 500ms ease-in-out;
     opacity: .6;
     cursor: pointer;
     background-color: var(--cyan);
