@@ -30,6 +30,7 @@
 :root {
     --soft-blue: hsl(215, 51%, 70%);
     --cyan: hsl(178, 100%, 50%);
+    --cyan-opaque: rgba(0, 255, 247, 0.5);
 
     --main-bg: hsl(217, 54%, 11%);
     --card-bg: hsl(216, 50%, 16%);
@@ -68,6 +69,7 @@ section {
 
 .imgContainer {
     position: relative;
+    cursor: pointer;
 }
 
 .imgOverlay {
@@ -84,9 +86,8 @@ section {
 .imgContainer:hover .imgOverlay {
     height: 100%;
     transition: 500ms ease-in-out;
-    opacity: .6;
-    cursor: pointer;
-    background-color: var(--cyan);
+    opacity: 1;
+    background-color: var(--cyan-opaque);
 }
 
 .cubeImg {
