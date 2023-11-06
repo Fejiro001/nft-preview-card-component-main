@@ -71,11 +71,19 @@ section {
 }
 
 .imgOverlay {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     inset: 0;
+    opacity: 0;
+    border-radius: .5rem;
+}
+
+.imgContainer:hover .imgOverlay {
+    opacity: .6;
+    cursor: pointer;
+    background-color: var(--cyan);
 }
 
 .cubeImg {
@@ -143,4 +151,9 @@ hr {
 
 .creator b {
     color: var(--white);
+}
+
+h1:hover, b:hover {
+    color: var(--cyan);
+    cursor: pointer;
 }
