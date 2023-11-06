@@ -160,3 +160,13 @@ h1:hover, b:hover {
     color: var(--cyan);
     cursor: pointer;
 }
+
+footer {
+    text-align: center;
+    color: var(--white);
+}
+
+footer a {
+    color: var(--cyan);
+    text-decoration: none;
+}
