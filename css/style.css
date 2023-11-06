@@ -36,6 +36,111 @@
     --line-color: hsl(215, 32%, 27%);
     --white: hsl(0, 0%, 100%);
 
-    --heading-size: 1.2rem;
-    --font-size: 1.125rem;
+    --heading-size: 1.3rem;
+    --font-size: 1rem;
+    --font-family: "Outfit", sans-serif;
+
+    --pad: 1.5rem;
+    --gap: 1rem;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    background-color: var(--main-bg);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--gap) + .5rem);
+    background-color: var(--card-bg);
+    /* width: fit-content; */
+    max-width: 23em;
+    padding: var(--pad);
+    margin: var(--pad);
+    border-radius: 1rem;
+}
+
+.imgContainer {
+    position: relative;
+}
+
+.imgOverlay {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    inset: 0;
+}
+
+.cubeImg {
+    max-width: 100%;
+    border-radius: .5rem;
+}
+
+.definition {
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--gap) - .2rem);
+}
+
+.definition h1 {
+    color: var(--white);
+    font-size: var(--heading-size);
+}
+
+.definition p {
+    color: var(--soft-blue);
+    font-size: var(--font-size);
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.numbers > * {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: var(--font-size);
+    gap: calc(var(--gap) - .5rem);
+}
+
+.ethValue .currency {
+    color: var(--cyan);
+}
+
+.daysLeft {
+    color: var(--soft-blue);
+}
+
+hr {
+    color: var(--line-color);
+}
+
+.creator {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+
+.creator img {
+    border: 1px solid var(--white);
+    border-radius: 50%;
+    max-width: 10%;
+}
+
+.creator p {
+    color: var(--soft-blue);
+}
+
+.creator b {
+    color: var(--white);
 }
