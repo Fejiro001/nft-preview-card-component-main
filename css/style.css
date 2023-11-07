@@ -55,7 +55,7 @@ main {
     background-color: var(--main-bg);
 }
 
-section {
+article {
     display: flex;
     flex-direction: column;
     gap: calc(var(--gap) + .5rem);
