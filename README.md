@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/nft-preview-card-css-flexboxtransition-EJI1_f80BF)
 - Live Site URL: [Live Site](https://fejiro001.github.io/nft-preview-card-component-main/)
 
 ## My process
