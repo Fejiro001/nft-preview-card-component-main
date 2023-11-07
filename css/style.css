@@ -134,7 +134,7 @@ section {
 }
 
 hr {
-    color: var(--line-color);
+    border: 1px solid var(--line-color);
 }
 
 .creator {
